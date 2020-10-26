@@ -43,6 +43,7 @@ const templateWithJQuery = () => {
     temp.find('h2').text(starWarsPeople[index].name);
     temp.find('h3').text(starWarsPeople[index].height);
     temp.find('p').text(starWarsPeople[index].eye_color);
+    temp.removeAttr('id');
   });
 
 };
